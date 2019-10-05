@@ -22672,7 +22672,7 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x02ip\x18\x0f\x20\x01(\rR\x02ip\x12N\n\ngc_msg_src\x18\xc8\x01\x20\x01(\
     \x0e2\x11.GCProtoBufMsgSrc:\x1cGCProtoBufMsgSrc_UnspecifiedR\x08gcMsgSrc\
     \x12.\n\x13gc_dir_index_source\x18\xc9\x01\x20\x01(\rR\x10gcDirIndexSour\
-    ce:\n\x88\xa6\x1d\x80\x08\x80\xa6\x1d\x80\x02\"\xae\x01\n\rCMsgWebAPIKey\
+    ce:\n\x80\xa6\x1d\x80\x02\x88\xa6\x1d\x80\x08\"\xae\x01\n\rCMsgWebAPIKey\
     \x12\x1b\n\x06status\x18\x01\x20\x01(\r:\x03255R\x06status\x12\x20\n\nac\
     count_id\x18\x02\x20\x01(\r:\x010R\taccountId\x12/\n\x12publisher_group_\
     id\x18\x03\x20\x01(\r:\x010R\x10publisherGroupId\x12\x15\n\x06key_id\x18\
@@ -22850,8 +22850,8 @@ static file_descriptor_proto_data: &'static [u8] = b"\
     \x01(\x04R\x07phoneId\x120\n\x14is_phone_identifying\x18\"\x20\x01(\x08R\
     \x12isPhoneIdentifying\x12,\n\x12rt_identity_linked\x18#\x20\x01(\rR\x10\
     rtIdentityLinked\x12\"\n\rrt_birth_date\x18$\x20\x01(\rR\x0brtBirthDate\
-    \x12(\n\x10txn_country_code\x18%\x20\x01(\tR\x0etxnCountryCode:\n\x80\
-    \xa6\x1d\x80\x01\x88\xa6\x1d\x80\x04\"3\n\x15CMsgGCGetPersonaNames\x12\
+    \x12(\n\x10txn_country_code\x18%\x20\x01(\tR\x0etxnCountryCode:\n\x88\
+    \xa6\x1d\x80\x04\x80\xa6\x1d\x80\x01\"3\n\x15CMsgGCGetPersonaNames\x12\
     \x1a\n\x08steamids\x18\x01\x20\x03(\x06R\x08steamids\"\xfc\x01\n\x1eCMsg\
     GCGetPersonaNames_Response\x12X\n\x11succeeded_lookups\x18\x01\x20\x03(\
     \x0b2+.CMsgGCGetPersonaNames_Response.PersonaNameR\x10succeededLookups\
