@@ -1,0 +1,20 @@
+[package]
+name = "regionpicker"
+version = "0.1.0"
+authors = ["Jan <not-wlan@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[build-dependencies]
+protoc-rust = "2.0"
+
+[dependencies]
+winapi = { version = "0.3", features = ["consoleapi", "winnt", "memoryapi", "winuser", "utilapiset"] }
+protobuf = { version = "2", features = ["with-bytes"] }
+lazy_static = "*"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
